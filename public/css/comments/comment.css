@@ -1,0 +1,80 @@
+.comment-section-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    width:800px;
+    transition: .2s all;
+    
+}
+
+/* comment */
+
+.comment-container{
+    justify-content: center;;
+    display:flex;
+    flex-direction:row;
+    padding:10px;
+    margin-top:10px;
+    background-color: rgba(243,243,243,0.568);
+    border-bottom:1px solid #d3d3d3;
+}
+
+.comment-container .comment-left{
+    padding-right:15px;
+}
+
+.comment-container .comment-left img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+}
+
+.comment-container .comment-right .comment-right-subheader{
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-container .comment-right .comment-right-header .comment-user-name{
+    font-weight:600;
+}
+
+.comment-container .comment-right .comment-right-header .comment-posted-at{
+    color: gray;
+}
+.comment-container .comment-right .comment-right-footer img{
+    height:40px;
+    width:40px;
+    cursor: pointer;
+}
+.comment-container .comment-right .comment-right-footer{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.comment-container .comment-right .comment-right-footer .comment-likes{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #25f363;
+}
+.comment-container .comment-right .comment-right-footer .comment-likes.active img{
+    filter: brightness(50%) saturate(100%) invert(13%) sepia(100%) saturate(1000%) hue-rotate(200deg) brightness(3.5);
+}
+
+.comment-container .comment-right .comment-right-footer .comment-dislikes{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #ed6767;
+}
+
+.comment-container .comment-right .comment-right-footer .comment-dislikes.active img{
+    filter: brightness(50%) saturate(100%) invert(13%) sepia(100%) saturate(1000%) hue-rotate(-50deg) brightness(2.5);
+}
+
+

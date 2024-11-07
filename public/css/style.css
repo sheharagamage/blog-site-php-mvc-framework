@@ -1,0 +1,18 @@
+@import url('components/topnavbar.css');
+@import url('components/form.css');
+@import url('components/button.css');
+@import url('components/flash_msg.css');
+@import url('posts/posts.css');
+@import url('comments/comment.css');
+/* fonts */
+@font-face {
+    font-family:poppins-Regular ;
+    src: url(fonts/poppins-regular.tft);
+}
+
+body{
+    margin:0;
+    font-family: poppins-Regular;
+    font-size: small;
+    text-align:left;
+}

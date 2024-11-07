@@ -1,0 +1,118 @@
+.form-btn{
+    background-color:rgba(59,110,36) ;
+    color:aliceblue;
+    padding: 16px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    width:100%;
+    transition: .2s all;
+
+}
+
+.form-btn:hover{
+    background-color:rgba(59,110,36,0.2) ;
+}
+
+.post-btn{
+    background-color:rgb(32, 152, 34) ;
+    color:aliceblue;
+    padding: 16px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    width:100%;
+    transition: .2s all;
+
+}
+
+.post-btn:hover{
+    background-color:rgb(6, 34, 12) ;
+    border-radius: 5px;
+}
+
+.post-control-btn1{
+    background-color:rgb(32, 152, 34) ;
+    color:aliceblue;
+    padding: 16px 20px;
+    margin-left:10px;
+    border:none;
+    cursor:pointer;
+    width:100%;
+    transition: .2s all;
+}
+
+.post-control-btn1:hover{
+    background-color:rgb(6, 34, 12) ;
+    border-radius: 5px;
+}
+
+.post-control-btn2{
+    background-color:rgb(208, 24, 24) ;
+    color:aliceblue;
+    padding: 16px 20px;
+    margin-left:30px;
+    border:none;
+    cursor:pointer;
+    width:85%;
+    transition: .2s all;
+}
+
+.post-control-btn2:hover{
+    background-color:rgb(89, 11, 11) ;
+    border-radius: 5px;
+}
+
+.post-control-btn{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.post-control-btn3{
+    background-color:rgb(32, 152, 34) ;
+    color:aliceblue;
+    padding: 16px 20px;
+    margin-left:10px;
+    border:none;
+    cursor:pointer;
+    width:200px;
+    transition: .2s all;
+}
+
+.post-control-btn3:hover{
+    background-color:rgb(6, 34, 12) ;
+    border-radius: 5px;
+}
+
+
+/* comment  related at the footer*/
+
+.post-footer-commentbtn{
+    background-color:rgb(24, 208, 88) ;
+    color:aliceblue;
+  
+    border:none;
+    cursor:pointer;
+    width:100px;
+    transition: .2s all;
+}
+.post-footer-commentbtn:hover{
+    background-color:rgb(15, 94, 28) ;
+    border-radius:5px;
+}
+
+.comment-delete-btn img{
+    height:20px;
+    width:20px;
+    align-items: center;
+}
+
+.comment-delete-btn img{
+    filter: brightness(50%) saturate(100%) invert(13%) sepia(100%) saturate(1000%) hue-rotate(-50deg) brightness(2.5);
+}
+
+
+.comment-delete-btn img:hover{
+    cursor: pointer;
+}
